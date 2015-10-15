@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class Bol2_7 {
 
-    
+    // creado por Nabor Lopez
+   
     public static void main(String[] args) {
         double n;
         double i;
