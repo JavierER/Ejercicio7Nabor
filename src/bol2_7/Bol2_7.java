@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Bol2_7 {
 
-    // creado 
+    
    
     public static void main(String[] args) {
         double n;
@@ -17,7 +17,7 @@ public class Bol2_7 {
         n = dato.nextDouble();
         System.out.print("Introducir interes anual :");
         i = dato.nextDouble();
-        i =i/1200;
+        i =i/(12*100);
         System.out.print("Introducir tiempo :");
         t = dato.nextDouble();
         System.out.print("Resultado ="+(n*Math.pow((1+i),(t*12)*i)/((Math.pow((1+i),t*12))-1)));
