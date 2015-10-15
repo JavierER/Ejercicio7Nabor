@@ -20,8 +20,7 @@ public class Bol2_7 {
         i =i/1200;
         System.out.print("Introducir tiempo :");
         t = dato.nextDouble();
-        t = t*12;
-        System.out.print("Resultado ="+(n*Math.pow((1+i),t)*i)/((Math.pow((1+i),t)-1)));
+        System.out.print("Resultado ="+(n*Math.pow((1+i),(t*12)*i)/((Math.pow((1+i),t*12))-1)));
     }
     
 }
